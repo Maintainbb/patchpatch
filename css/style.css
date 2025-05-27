@@ -1,0 +1,113 @@
+body {
+    background-color: #c4d6e4;
+    margin: 0;
+    padding: 0px;
+    font-family: calibri;
+}
+
+.menu {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.menu a {
+    color: #3e3e3e;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+.menu a:hover {
+    color: #000;
+
+
+}
+
+.menu_logo {
+    width: 100px;
+}
+
+.active {
+    color: #000;
+    font-weight: bold;
+}
+
+.search_btn {
+    border: 2px solid #000;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+
+
+}
+
+
+.maintain_image {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    font-display: center;
+
+}
+
+.image-mcontainer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.maintain_image {
+    display: flex;
+}
+
+.hero {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    padding: 20px;
+}
+
+.container_1 {
+    width: 100%;
+    font-size: 26px;
+}
+
+.container_1 h1 {
+    font-size: 66px;
+    letter-spacing: 5px;    
+    font-weight: bold;
+}
+
+.get_started_btn{
+    background: #000;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.image_container{
+    width: 100%;
+}
+
+.image_container img{
+    width: 100%;
+}
+
+.container_2{
+    display: flex;
+}
